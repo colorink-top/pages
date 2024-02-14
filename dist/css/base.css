@@ -1,0 +1,22 @@
+html,body, .root-container {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.root-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vip-containers {
+  display: flex;
+}
+.vip-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
