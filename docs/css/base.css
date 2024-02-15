@@ -1,3 +1,44 @@
+:root{
+  --base00: #f8f8f2;
+  --base01: #efefe9;
+  --base02: #deded8;
+  --base03: #c0c0bd;
+  --base04: #60615d;
+  --base05: #232629;
+  --base06: #2f3337;
+  --base07: #070708;
+  --base08: #b0151a;
+  --base09: #ff3d00;
+  --base0A: #ffb627;
+  --base0B: #388e3c;
+  --base0C: #008e8e;
+  --base0D: #0082c9;
+  --base0E: #700f98;
+  --base0F: #b27701;
+  --defaultBackground: var(--base00, #F8F4ED);
+  --lighterBackground: var(--base01, #E7E3DB);
+  --selectionBackground: var(--base02, #C7D2D4);
+  --highlightBackground: var(--base03, #A4ACA7);
+  --darkForeground: var(--base04, #3a403b);
+  --defaultForeground: var(--base05, #2B312C);
+  --lightForeground: var(--base06, #141714);
+  --lightBackground: var(--base07, #090a09);
+  --primaryColor: var(--base09, #2185D0);
+  --secondaryColor: var(--base0D, #2B312C);
+  --positiveColor: var(--base0B, #21BA45);
+  --negativeColor: var(--base08, #DB2828);
+  --infoColor: var(--base0A, #31CCEC);
+  --warningColor: var(--base0E, #F2C037);
+  --vip-level-1-color: var(--lighterBackground);
+  --vip-level-2-color: var(--primaryColor);
+}
+*{
+  box-sizing: border-box;
+}
+html {
+  color: var(--defaultForeground);
+  background: var(--defaultBackground);
+}
 html,body, .root-container {
   padding: 0;
   margin: 0;
@@ -5,18 +46,96 @@ html,body, .root-container {
   width: 100%;
 }
 
+img{
+  max-width: 100%;
+}
+
 .root-container{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .vip-containers {
   display: flex;
+  flex-wrap: wrap;
 }
 .vip-container {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 5px;
+  min-width: 300px;
+  min-height: 400px;
+  line-height: 2;
 }
 
+.vip-container:hover {
+    box-shadow: 1px 1px 1px var(--defaultForeground);
+}
 
+.vip-1-container{
+  background: var(--vip-level-1-color);
+  --defaultBackground: var(--vip-level-1-color);
+}
+.vip-2-container{
+  background: var(--vip-level-2-color);
+  color: white;
+  outline: 2px dotted var(--vip-level-2-color);
+  outline-offset: 2px;
+  --defaultBackground: var(--vip-level-2-color);
+}
+.vip-2-container:hover{
+  box-shadow: 1px 1px 1px var(--vip-level-2-color);
+  outline-style: solid;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2px;
+}
+
+.header{
+  font-size: 1.3em;
+}
+.footer{
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(0deg, var(--defaultBackground) 70%, transparent);
+  width: 100%;
+}
+.header, .footer{
+  text-align: center;
+}
+
+.detail {
+  flex: 1;
+  margin-bottom: 2em;
+}
+
+.price {
+  margin: 0.5em;
+  font-size: 1.2em;
+}
+
+button {
+  margin: .5em;
+}
+
+button.signin-btn {
+  padding: .5em;
+  font-weight: bolder;
+}
+
+.login-form{
+  display: inline-block;
+  text-align: right;
+}
+
+.info {
+  padding-bottom: 2em;
+}
