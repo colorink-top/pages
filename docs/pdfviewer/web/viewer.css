@@ -156,9 +156,6 @@
       outline:1.5px solid selectedItem;
     }
 
-    .annotationLayer .inkAnnotation{
-      pointer-events:none;
-    }
     .annotationLayer .linkAnnotation{
       outline:var(--link-outline);
     }
@@ -207,6 +204,10 @@
 
 .annotationLayer[data-main-rotation="270"] .norotate{
     transform:rotate(90deg) translateY(-100%);
+  }
+
+.annotationLayer .inkAnnotation{
+    pointer-events:none;
   }
 
 .annotationLayer.disabled section,
