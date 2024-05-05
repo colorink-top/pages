@@ -23,6 +23,15 @@
         .format(format)
         .toString();
     });
+    const timeoutFn = function(){
+      return new Promise((resolve)=>{
+        setTimeout(()=>{
+          resolve()
+        }, 100) // 100ms
+      })
+    }
+
+
     window.joppLoadedFn = async (opts={})=>{
       const returnResult = {}
       try {
@@ -33,6 +42,8 @@
         console.log('error::', error)
         returnResult.error = error + ''
       }
+      await timeoutFn();
+      console.log('success load')
       return returnResult
     }
   </script>
