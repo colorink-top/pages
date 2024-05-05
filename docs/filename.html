@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script src="./libs/moment-with-locales.min.js"></script>
+  <script src="./libs/nunjucks.min.js"></script>
+  <script>
+    const env = new nunjucks.Environment()
+    // value = '', format = 'MMMM DD, YYYY', timezone = 'America/New_York'
+    env.addFilter('dateFormat', (value = '', format = 'YYYY-MM-DD_HH-mm-ss', timezone = '', lang='') => {
+      const result = value !== '' ? moment(value) : moment();
+      if (lang) {
+        result.lang(lang)
+      }
+      if (timezone) {
+        result.tz(timezone)
+      }
+
+      return result
+        .format(format)
+        .toString();
+    });
+    window.joppLoadedFn = async (opts={})=>{
+      const returnResult = {}
+      try {
+        if (opts.template){
+          returnResult.data = env.renderString(opts.template, opts.meta)
+        }
+      } catch(error) {
+        console.log('error::', error)
+        returnResult.error = error + ''
+      }
+      return returnResult
+    }
+  </script>
+</body>
+</html>
