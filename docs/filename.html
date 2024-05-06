@@ -6,11 +6,11 @@
 </head>
 <body>
   filename generator 
-  version: 3
+  version: 4
   <script src="./libs/moment-with-locales.min.js"></script>
   <script src="./libs/nunjucks.min.js"></script>
   <script>
-    const env = new nunjucks.Environment()
+    const env = new nunjucks.Environment(null, {autoescape: false})
     // value = '', format = 'MMMM DD, YYYY', timezone = 'America/New_York'
     env.addFilter('dateFormat', (value = '', format = 'YYYY-MM-DD_HH-mm-ss', timezone = '', lang='') => {
       const result = value !== '' ? moment(value) : moment();
@@ -44,6 +44,7 @@
         console.log('error::', error)
         returnResult.error = error + ''
       }
+      // 这里需要一个异步操作，不然有概率出现问题
       await timeoutFn();
       console.log('success load')
       return returnResult
