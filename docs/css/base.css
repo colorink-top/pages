@@ -129,6 +129,7 @@ button {
 button.signin-btn {
   padding: .5em;
   font-weight: bolder;
+  font-size: 1.3em;
 }
 
 .login-form{
