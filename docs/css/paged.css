@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.watermark {
+  position: fixed;
+  inset: 0;
+  z-index: 1000000;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.page-print-container {
+  counter-reset: page 1;
+  page: section;
+}
+
+.endpage {
+  page: endpage;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.endpage:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: var(--backgroundxhsLogo);
+  transform: rotate(30deg);
+}
+
+.endpage:after {
+    content: ' ';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: #fffffff2;
+    z-index: -1;
+}
+
+@page endpage {
+  margin: 0;
+}
+
+.frontpage {
+  page: frontpage;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.frontpage .avatar-img {
+  max-width: 400px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 1px solid var(--color-border);
+  object-fit: cover;
+}
+
+.frontpage:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: var(--backgroundLogo);
+  transform: rotate(-30deg);
+}
+
+.frontpage:after {
+    content: ' ';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: #fffffff2;
+    z-index: -1;
+}
+
+@page frontpage {
+  margin: 0;
+}
+
+
+.chapter{
+  page: section;
+  break-before: page;
+}
+
+@page {
+  size: A4;
+}
+
+.joppEl {
+  position: running(joppEl)
+}
+.pagedjs_pages{
+  opacity: 0;
+}
+/**marker**/
+
+
+.marker_container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.top_marker, .bottom_marker{
+    position: absolute;
+}
+.arc-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #8d1919;
+    font-weight: bolder;
+    white-space: nowrap;
+    font-family: Oswald, sans-serif;
+}
+
+.svg_container>svg {
+    -webkit-transform: rotate(-40deg);
+}
+
+.letters {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/** header footer **/
+
+.jopp-header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.jopp-footer-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.jopp-nowrap{
+    white-space: nowrap;
+}
