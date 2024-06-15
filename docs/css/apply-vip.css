@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.root-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.vip-containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.vip-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 5px;
+  min-width: 250px;
+  min-height: 400px;
+  line-height: 2;
+}
+
+.vip-container:hover {
+    box-shadow: 1px 1px 1px var(--defaultForeground);
+}
+
+.vip-1-container{
+  background: var(--vip-level-1-color);
+  --defaultBackground: var(--vip-level-1-color);
+}
+.vip-2-container{
+  background: var(--vip-level-2-color);
+  color: white;
+  outline: 2px dotted var(--vip-level-2-color);
+  outline-offset: 2px;
+  --defaultBackground: var(--vip-level-2-color);
+  font-family: "Freeman", sans-serif;
+}
+.vip-2-container:hover{
+  box-shadow: 1px 1px 1px var(--vip-level-2-color);
+  outline-style: solid;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2px;
+}
+
+.header{
+  font-size: 1.3em;
+}
+.footer{
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(0deg, var(--defaultBackground) 70%, transparent);
+  width: 100%;
+}
+.header, .footer{
+  text-align: center;
+}
+
+.detail {
+  flex: 1;
+  margin-bottom: 2em;
+}
+
+.detail > ol{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form-input-container>label{
+  font-size: .7em;
+}
+
+.price {
+  margin: 0.5em;
+  font-size: 1.2em;
+}
+
+.login-form-footer{
+  align-items: end;
+  margin-top: .5em;
+  display: inline-flex;
+  column-gap: 1em;
+}
+
+.login-form-btns{
+  flex: 1;
+}
+.other-btns{
+  font-size: .7em;
+}
+
+button.signin-btn {
+  padding: .5em;
+  font-weight: bolder;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.signin-btn:hover {
+  outline: 2px solid;
+  outline-offset: 3px;
+}
+
+
+.login-form{
+  display: inline-block;
+  text-align: right;
+}
+
+.info {
+  padding-bottom: 2em;
+}
