@@ -124,3 +124,7 @@ button.signin-btn:hover {
 .info {
   padding-bottom: 2em;
 }
+
+.info,.intro{
+  margin: 10px;
+}
