@@ -1,0 +1,29 @@
+[
+  {
+    "id": "system_98086895-343c-4319-9a66-3c665ea0d0b9",
+    "name": "Default",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/default/back/",
+    "preview": "templates/multiple/covers/default/back/index.html",
+    "path": "templates/multiple/covers/default/back/template.json"
+  },
+  {
+    "id": "system_a0b9a70a-4222-41b2-a252-b891f15982fe",
+    "name": "Clean",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/clean/back/",
+    "preview": "templates/multiple/covers/clean/back/index.html",
+    "path": "templates/multiple/covers/clean/back/template.json"
+  },
+  {
+    "id": "system_5974a585-e6c4-4ccd-98e4-6db406655443",
+    "name": "Just One Page PDF",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/jopp/back/",
+    "preview": "templates/multiple/covers/jopp/back/index.html",
+    "path": "templates/multiple/covers/jopp/back/template.json"
+  }
+]

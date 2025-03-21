@@ -1,0 +1,19 @@
+{
+  "author": "jopp",
+  "version": "0.0.1",
+  "name": "Chrome Classic",
+  "options": {
+    "frame": "chromeClassic",
+    "padding": 15,
+    "background": {
+      "type": "image",
+      "url": "./imgs/ddknoll/ziggy.svg"
+    }
+  },
+  "margin": {
+    "top": 102,
+    "right": 35,
+    "bottom": 35,
+    "left": 35
+  }
+}

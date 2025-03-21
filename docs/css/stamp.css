@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: "xsjOswald";
+  src:
+    url("../fonts/Oswald-Bold.ttf");
+}
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'xsjOswald', sans-serif;
+}
+
+.stamp-container{
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.title{
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+  word-spacing: 4px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sub-title{
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  font-size: 14px;
+  word-spacing: 4px;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+}
+
+.date{
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  color: #D93838;
+  text-transform: uppercase;
+}
+
+.hostname{
+  position: absolute;
+  width: 100%;
+  bottom: 35px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #D93838;
+  text-transform: uppercase;
+}
+

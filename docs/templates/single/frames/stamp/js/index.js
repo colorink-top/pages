@@ -1,0 +1,1 @@
+window.joppInit=async function(e){const{templateInfo:t,documentInfo:n,pdfInfo:o}=e,r=document.querySelector(".page-link");r.innerText=n.hostname,r.href=n.url;document.querySelector(".title").innerText=n.title;document.querySelector(".date").innerText=(new Date).toLocaleString()};

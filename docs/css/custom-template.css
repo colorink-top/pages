@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+html,body,.jopp-custom-template-container, .jopp-custom-template-element{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.jopp-custom-template-container{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 0;
+}
+.jopp-custom-template-element{
+  position: absolute;
+  inset: 0;
+}
+
+@media print{
+  .jopp-custom-template-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: initial;
+    top: initial;
+  }
+}
