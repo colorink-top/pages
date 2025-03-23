@@ -1,6 +1,6 @@
 [
   {
-    "id": "4b62176d-1ae6-40ef-8176-ca36d64aa33f",
+    "id": "5b3039e6-1425-4b22-acc2-282e729527e6",
     "name": "3D Picture Frame",
     "remote": true,
     "author": "xsj",
@@ -9,16 +9,7 @@
     "path": "templates/single/frames/3d-picture/template.json"
   },
   {
-    "id": "64b7d251-3c6b-40ea-bec5-192acdd88d70",
-    "name": "browserleaks",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/browserleaks/",
-    "preview": "templates/single/frames/browserleaks/index.html",
-    "path": "templates/single/frames/browserleaks/template.json"
-  },
-  {
-    "id": "669c2c4f-9ff0-4906-a4e2-9fb2a93eb766",
+    "id": "64c80033-0789-44c6-b189-51c82f4b23ef",
     "name": "background-images",
     "remote": true,
     "author": "xsj",
@@ -27,7 +18,16 @@
     "path": "templates/single/frames/background-images/template.json"
   },
   {
-    "id": "1204db0b-8062-43b9-993f-edd29ce27825",
+    "id": "9e0a0d6d-fcf6-4ac9-9704-3762e53d4230",
+    "name": "browserleaks",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/browserleaks/",
+    "preview": "templates/single/frames/browserleaks/index.html",
+    "path": "templates/single/frames/browserleaks/template.json"
+  },
+  {
+    "id": "1237b503-8390-4e0c-b59c-1f67aaa9708d",
     "name": "default",
     "remote": true,
     "author": "xsj",
@@ -36,7 +36,7 @@
     "path": "templates/single/frames/default/template.json"
   },
   {
-    "id": "0b172dc4-435c-43e8-b48f-3e389176aeca",
+    "id": "00564280-4a14-47bd-9e62-69f124e30d49",
     "name": "mac",
     "remote": true,
     "author": "xsj",
@@ -45,7 +45,7 @@
     "path": "templates/single/frames/mac/template.json"
   },
   {
-    "id": "4be09d96-639b-4c34-9a98-ec25598496bd",
+    "id": "349bc74c-f624-4441-a43c-a7ddfbfb2e4d",
     "name": "masks",
     "remote": true,
     "author": "xsj",
@@ -54,7 +54,7 @@
     "path": "templates/single/frames/masks/template.json"
   },
   {
-    "id": "909dbfea-2e64-491f-8c7a-6c9d6100b6b5",
+    "id": "5d03fd02-54a1-4b12-a046-af0741337758",
     "name": "Mental Picture Frame",
     "remote": true,
     "author": "xsj",
@@ -63,7 +63,7 @@
     "path": "templates/single/frames/metal-picture/template.json"
   },
   {
-    "id": "300b5d23-4b1a-45c2-a387-1e2b7e570442",
+    "id": "80fbea42-8e41-4da0-8c22-a3c598047310",
     "name": "Picture Frame",
     "remote": true,
     "author": "xsj",
@@ -72,7 +72,7 @@
     "path": "templates/single/frames/picture/template.json"
   },
   {
-    "id": "f1085269-24b8-4321-9771-fd46a0056869",
+    "id": "f0a6dc6b-3b27-4d76-9323-6308c6b65588",
     "name": "Ruler",
     "remote": true,
     "author": "xsj",
@@ -81,7 +81,7 @@
     "path": "templates/single/frames/ruler/template.json"
   },
   {
-    "id": "a48b033b-e99a-488e-832c-212967bc4c74",
+    "id": "fbc92590-1a0e-4c7a-8432-12be16dd130a",
     "name": "Simple Blue Frame",
     "remote": true,
     "author": "xsj",
@@ -90,7 +90,7 @@
     "path": "templates/single/frames/simple-blue/template.json"
   },
   {
-    "id": "2a939387-94cf-4ec8-90db-0c1b08ff76c5",
+    "id": "e203eb20-82cc-4f0f-9b57-b3fd442853cb",
     "name": "Tucked Corners Frame",
     "remote": true,
     "author": "xsj",
@@ -99,7 +99,16 @@
     "path": "templates/single/frames/tucked-corners/template.json"
   },
   {
-    "id": "b44c8195-365a-43b5-87c9-1e0ac34b9b38",
+    "id": "904ad050-f63d-4a74-ad8c-cf18113724dc",
+    "name": "Bubbles",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/bubbles/",
+    "preview": "templates/single/frames/bubbles/index.html",
+    "path": "templates/single/frames/bubbles/template.json"
+  },
+  {
+    "id": "e071cd35-bd60-46e7-8ffd-7386479645cc",
     "name": "Clean",
     "remote": true,
     "author": "xsj",
@@ -108,7 +117,7 @@
     "path": "templates/single/frames/clean/template.json"
   },
   {
-    "id": "f41b16d2-3148-4217-bfd3-292d5fb7e396",
+    "id": "5669ea92-897d-4f70-816e-7f5ea41e1a85",
     "name": "Education",
     "remote": true,
     "author": "xsj",
@@ -117,7 +126,7 @@
     "path": "templates/single/frames/education/template.json"
   },
   {
-    "id": "f9809ad0-5eda-40d2-82b2-6faf5f84958a",
+    "id": "f8111136-f820-4c34-8f35-fd0b02f93d59",
     "name": "Just One Page PDF",
     "remote": true,
     "author": "xsj",
@@ -126,7 +135,7 @@
     "path": "templates/single/frames/jopp/template.json"
   },
   {
-    "id": "0307b80a-08db-40ae-bedb-eac3d36b24df",
+    "id": "fbe59d7d-3d34-4f26-924a-a1140758b58a",
     "name": "Stamp",
     "remote": true,
     "author": "xsj",
@@ -135,7 +144,16 @@
     "path": "templates/single/frames/stamp/template.json"
   },
   {
-    "id": "system_7b2a5292-41d1-447d-b0b1-531e48c1ebdb",
+    "id": "457ee579-6e57-49ed-b9da-d67730b64882",
+    "name": "Sunset",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/sunset/",
+    "preview": "templates/single/frames/sunset/index.html",
+    "path": "templates/single/frames/sunset/template.json"
+  },
+  {
+    "id": "system_2d83d718-2e6b-44e5-80ea-072c694f3206",
     "name": "Chrome Classic",
     "remote": true,
     "author": "xsj",
