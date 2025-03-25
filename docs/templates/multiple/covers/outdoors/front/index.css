@@ -1,19 +1,23 @@
-html,body,.pdf-container{
+html,
+body,
+.pdf-container {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #c1c9b2;
-  background-image: url(./bicycle.svg);
+
+body {
+  background: url(./outdoors.svg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
+  color: #4b3527;
 }
 
-a{
-  color: black;
+a {
+  color: #4b3527;
   text-decoration: none;
 }
 .jopp-front-cover {

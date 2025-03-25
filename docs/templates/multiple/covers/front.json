@@ -36,6 +36,33 @@
     "path": "templates/multiple/covers/jopp/front/template.json"
   },
   {
+    "id": "system_leaf",
+    "name": "Leaf",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/leaf/front/",
+    "preview": "templates/multiple/covers/leaf/front/index.html",
+    "path": "templates/multiple/covers/leaf/front/template.json"
+  },
+  {
+    "id": "system_mind",
+    "name": "Mind",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/mind/front/",
+    "preview": "templates/multiple/covers/mind/front/index.html",
+    "path": "templates/multiple/covers/mind/front/template.json"
+  },
+  {
+    "id": "system_outdoors",
+    "name": "Outdoors",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/outdoors/front/",
+    "preview": "templates/multiple/covers/outdoors/front/index.html",
+    "path": "templates/multiple/covers/outdoors/front/template.json"
+  },
+  {
     "id": "system_sunset",
     "name": "Sunset",
     "remote": true,

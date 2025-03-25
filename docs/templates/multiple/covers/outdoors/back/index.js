@@ -1,0 +1,1 @@
+window.joppInit=async e=>{const{documentInfo:t}=e,n=document.querySelector(".jopp-table-title"),o=document.querySelector(".jopp-table-save-date"),r=document.querySelector(".jopp-table-link>a");n.innerText=t.title,o.innerText=(new Date).toLocaleString(),r.href=t.url,r.innerText=t.url};

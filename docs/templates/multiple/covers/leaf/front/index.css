@@ -5,15 +5,18 @@ html,body,.pdf-container{
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
-  background-color: #c1c9b2;
-  background-image: url(./bicycle.svg);
-  background-size: cover;
-  background-position: center bottom;
+  color: #85C226;
+  background-image: url(../leaf-background.svg), url(../leaf-left-top.svg), url(../leaf-right-bottom.svg), radial-gradient(circle, white, #EDF6e5);
+  background-size: cover, auto, auto;
+  background-repeat: no-repeat;
+  background-position: center, left top, right bottom;
+  background-color: #EDF6E5;
 }
 
 a{
-  color: black;
+  color: #85C226;
   text-decoration: none;
 }
 .jopp-front-cover {
