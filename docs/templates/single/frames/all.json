@@ -1,6 +1,6 @@
 [
   {
-    "id": "5b3039e6-1425-4b22-acc2-282e729527e6",
+    "id": "system_jopp-3d-picture",
     "name": "3D Picture Frame",
     "remote": true,
     "author": "xsj",
@@ -9,97 +9,7 @@
     "path": "templates/single/frames/3d-picture/template.json"
   },
   {
-    "id": "64c80033-0789-44c6-b189-51c82f4b23ef",
-    "name": "background-images",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/background-images/",
-    "preview": "templates/single/frames/background-images/index.html",
-    "path": "templates/single/frames/background-images/template.json"
-  },
-  {
-    "id": "9e0a0d6d-fcf6-4ac9-9704-3762e53d4230",
-    "name": "browserleaks",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/browserleaks/",
-    "preview": "templates/single/frames/browserleaks/index.html",
-    "path": "templates/single/frames/browserleaks/template.json"
-  },
-  {
-    "id": "1237b503-8390-4e0c-b59c-1f67aaa9708d",
-    "name": "default",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/default/",
-    "preview": "templates/single/frames/default/index.html",
-    "path": "templates/single/frames/default/template.json"
-  },
-  {
-    "id": "00564280-4a14-47bd-9e62-69f124e30d49",
-    "name": "mac",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/mac/",
-    "preview": "templates/single/frames/mac/index.html",
-    "path": "templates/single/frames/mac/template.json"
-  },
-  {
-    "id": "349bc74c-f624-4441-a43c-a7ddfbfb2e4d",
-    "name": "masks",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/masks/",
-    "preview": "templates/single/frames/masks/index.html",
-    "path": "templates/single/frames/masks/template.json"
-  },
-  {
-    "id": "5d03fd02-54a1-4b12-a046-af0741337758",
-    "name": "Mental Picture Frame",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/metal-picture/",
-    "preview": "templates/single/frames/metal-picture/index.html",
-    "path": "templates/single/frames/metal-picture/template.json"
-  },
-  {
-    "id": "80fbea42-8e41-4da0-8c22-a3c598047310",
-    "name": "Picture Frame",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/picture/",
-    "preview": "templates/single/frames/picture/index.html",
-    "path": "templates/single/frames/picture/template.json"
-  },
-  {
-    "id": "f0a6dc6b-3b27-4d76-9323-6308c6b65588",
-    "name": "Ruler",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/ruler/",
-    "preview": "templates/single/frames/ruler/index.html",
-    "path": "templates/single/frames/ruler/template.json"
-  },
-  {
-    "id": "fbc92590-1a0e-4c7a-8432-12be16dd130a",
-    "name": "Simple Blue Frame",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/simple-blue/",
-    "preview": "templates/single/frames/simple-blue/index.html",
-    "path": "templates/single/frames/simple-blue/template.json"
-  },
-  {
-    "id": "e203eb20-82cc-4f0f-9b57-b3fd442853cb",
-    "name": "Tucked Corners Frame",
-    "remote": true,
-    "author": "xsj",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/tucked-corners/",
-    "preview": "templates/single/frames/tucked-corners/index.html",
-    "path": "templates/single/frames/tucked-corners/template.json"
-  },
-  {
-    "id": "904ad050-f63d-4a74-ad8c-cf18113724dc",
+    "id": "system_jopp-bubbles",
     "name": "Bubbles",
     "remote": true,
     "author": "xsj",
@@ -108,7 +18,7 @@
     "path": "templates/single/frames/bubbles/template.json"
   },
   {
-    "id": "e071cd35-bd60-46e7-8ffd-7386479645cc",
+    "id": "system_jopp-clean",
     "name": "Clean",
     "remote": true,
     "author": "xsj",
@@ -117,7 +27,16 @@
     "path": "templates/single/frames/clean/template.json"
   },
   {
-    "id": "5669ea92-897d-4f70-816e-7f5ea41e1a85",
+    "id": "system_jopp-default",
+    "name": "Default",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/default/",
+    "preview": "templates/single/frames/default/index.html",
+    "path": "templates/single/frames/default/template.json"
+  },
+  {
+    "id": "system_jopp-education",
     "name": "Education",
     "remote": true,
     "author": "xsj",
@@ -126,7 +45,7 @@
     "path": "templates/single/frames/education/template.json"
   },
   {
-    "id": "f8111136-f820-4c34-8f35-fd0b02f93d59",
+    "id": "system_jopp-jopp",
     "name": "Just One Page PDF",
     "remote": true,
     "author": "xsj",
@@ -135,7 +54,52 @@
     "path": "templates/single/frames/jopp/template.json"
   },
   {
-    "id": "fbe59d7d-3d34-4f26-924a-a1140758b58a",
+    "id": "system_jopp-metal-picture",
+    "name": "Mental Picture Frame",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/metal-picture/",
+    "preview": "templates/single/frames/metal-picture/index.html",
+    "path": "templates/single/frames/metal-picture/template.json"
+  },
+  {
+    "id": "system_jopp-picture",
+    "name": "Picture Frame",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/picture/",
+    "preview": "templates/single/frames/picture/index.html",
+    "path": "templates/single/frames/picture/template.json"
+  },
+  {
+    "id": "system_jopp-programmer",
+    "name": "Programmer",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/programmer/",
+    "preview": "templates/single/frames/programmer/index.html",
+    "path": "templates/single/frames/programmer/template.json"
+  },
+  {
+    "id": "system_jopp-ruler",
+    "name": "Ruler",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/ruler/",
+    "preview": "templates/single/frames/ruler/index.html",
+    "path": "templates/single/frames/ruler/template.json"
+  },
+  {
+    "id": "system_jopp-simple-blue",
+    "name": "Simple Blue Frame",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/simple-blue/",
+    "preview": "templates/single/frames/simple-blue/index.html",
+    "path": "templates/single/frames/simple-blue/template.json"
+  },
+  {
+    "id": "system_jopp-stamp",
     "name": "Stamp",
     "remote": true,
     "author": "xsj",
@@ -144,7 +108,7 @@
     "path": "templates/single/frames/stamp/template.json"
   },
   {
-    "id": "457ee579-6e57-49ed-b9da-d67730b64882",
+    "id": "system_jopp-sunset",
     "name": "Sunset",
     "remote": true,
     "author": "xsj",
@@ -153,7 +117,16 @@
     "path": "templates/single/frames/sunset/template.json"
   },
   {
-    "id": "system_2d83d718-2e6b-44e5-80ea-072c694f3206",
+    "id": "system_jopp-tucked-corners",
+    "name": "Tucked Corners Frame",
+    "remote": true,
+    "author": "xsj",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/single/frames/tucked-corners/",
+    "preview": "templates/single/frames/tucked-corners/index.html",
+    "path": "templates/single/frames/tucked-corners/template.json"
+  },
+  {
+    "id": "system_jopp-frames-designer",
     "name": "Chrome Classic",
     "remote": true,
     "author": "xsj",

@@ -1,15 +1,15 @@
 [
   {
-    "id": "system_98086895-343c-4319-9a66-3c665ea0d0b9",
-    "name": "Default",
+    "id": "system_bicycle",
+    "name": "Bicycle",
     "remote": true,
     "author": "jopp",
-    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/default/back/",
-    "preview": "templates/multiple/covers/default/back/index.html",
-    "path": "templates/multiple/covers/default/back/template.json"
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/bicycle/back/",
+    "preview": "templates/multiple/covers/bicycle/back/index.html",
+    "path": "templates/multiple/covers/bicycle/back/template.json"
   },
   {
-    "id": "system_a0b9a70a-4222-41b2-a252-b891f15982fe",
+    "id": "system_clean",
     "name": "Clean",
     "remote": true,
     "author": "jopp",
@@ -18,12 +18,30 @@
     "path": "templates/multiple/covers/clean/back/template.json"
   },
   {
-    "id": "system_5974a585-e6c4-4ccd-98e4-6db406655443",
+    "id": "system_default",
+    "name": "Default",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/default/back/",
+    "preview": "templates/multiple/covers/default/back/index.html",
+    "path": "templates/multiple/covers/default/back/template.json"
+  },
+  {
+    "id": "system_jopp",
     "name": "Just One Page PDF",
     "remote": true,
     "author": "jopp",
     "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/jopp/back/",
     "preview": "templates/multiple/covers/jopp/back/index.html",
     "path": "templates/multiple/covers/jopp/back/template.json"
+  },
+  {
+    "id": "system_sunset",
+    "name": "Sunset",
+    "remote": true,
+    "author": "jopp",
+    "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/covers/sunset/back/",
+    "preview": "templates/multiple/covers/sunset/back/index.html",
+    "path": "templates/multiple/covers/sunset/back/template.json"
   }
 ]
