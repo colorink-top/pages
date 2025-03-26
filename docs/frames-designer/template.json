@@ -1,10 +1,11 @@
 {
   "author": "jopp",
   "version": "0.0.1",
-  "name": "Chrome Classic",
+  "name": "Frame Designers",
   "options": {
     "frame": "chromeClassic",
     "padding": 15,
+    "showDate": "#ffffff",
     "background": {
       "type": "image",
       "url": "./imgs/ddknoll/ziggy.svg"
