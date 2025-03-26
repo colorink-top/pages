@@ -22,7 +22,7 @@ html,body,.pdf-container{
 html {
   background-color: #d51515;
   background-image: url(./waves.svg), radial-gradient(closest-side, #d93838, transparent);
-  background-size: 80px, auto;
+  background-size: 80px, 100VW 100VH;
 }
 
 body{
