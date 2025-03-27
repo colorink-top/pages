@@ -26,7 +26,10 @@ body {
 .footer {
   width: 100%;
   position: relative;
+}
+.footer {
   height: 400px;
+  overflow: hidden;
   mask: linear-gradient(0, #1c1919 100px, transparent);
 }
 
