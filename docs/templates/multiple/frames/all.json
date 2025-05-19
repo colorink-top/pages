@@ -24,7 +24,8 @@
     "author": "xsj",
     "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/frames/city-stamp/",
     "preview": "templates/multiple/frames/city-stamp/index.html",
-    "path": "templates/multiple/frames/city-stamp/template.json"
+    "path": "templates/multiple/frames/city-stamp/template.json",
+    "supportConfig": true
   },
   {
     "id": "system_jopp-clean",
