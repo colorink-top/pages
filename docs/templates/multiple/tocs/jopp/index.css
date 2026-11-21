@@ -23,13 +23,10 @@ body,
 
 }
 .jopp-toc-title:before {
+  content: attr(data-content);
   background: #f4ecec;
   border-image: url(./border.png) 450 / 30px stretch;
   padding: 10px 20px;
-}
-
-.jopp-toc-title:empty:before {
-  content: 'Table of Contents';
 }
 
 div.jopp-toc-item-text {
