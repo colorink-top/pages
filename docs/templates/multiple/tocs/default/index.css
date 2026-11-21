@@ -28,9 +28,11 @@ body,
   padding-top: 1rem;
   text-transform: uppercase;
 }
-.jopp-toc-title:before {
-  content: 'table of contents';
+
+.jopp-toc-title:empty:before {
+  content: 'Table of Contents';
 }
+
 div.jopp-toc-item-text {
   border-bottom: 1px dotted var(--lighterBackground);
   clear: both;
