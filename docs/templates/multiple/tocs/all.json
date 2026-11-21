@@ -4,6 +4,7 @@
     "name": "Simple Color",
     "remote": true,
     "author": "xsj",
+    "supportConfig": true,
     "source": "https://github.com/colorink-top/public-templates/tree/master/docs/templates/multiple/tocs/color/",
     "preview": "templates/multiple/tocs/color/index.html",
     "path": "templates/multiple/tocs/color/template.json"

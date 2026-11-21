@@ -1,5 +1,7 @@
 :root {
-  --fontColor: #0099ff;
+  --fontFamily: 'serif';
+  --color: #0099ff;
+  --tocLevelIndentation: 1em;
 }
 html,
 body,
@@ -8,8 +10,9 @@ body,
   height: initial;
 }
 .toc-container {
+  font-family: var(--fontFamily), serif;
   line-height: 1;
-  color: var(--fontColor);
+  color: var(--color);
 }
 .jopp-toc-title {
   text-align: center;
@@ -17,16 +20,16 @@ body,
   font-weight: bolder;
   padding-bottom: 2rem;
   padding-top: 1rem;
-  text-transform: uppercase;
 }
-.jopp-toc-title:before {
-  content: 'table of contents';
+.jopp-toc-title:empty:before {
+  content: 'Table of Contents';
 }
 
 div.jopp-toc-item-text {
   border-bottom: 1px dotted;
   clear: both;
   white-space: break-spaces;
+  border-bottom-color: var(--borderColor, currentColor);
 }
 
 span {
@@ -45,13 +48,19 @@ ul {
   padding-left: 0em;
 }
 ul ul {
-  padding-left: 1em;
+  padding-left: var(--tocLevelIndentation, 1em);
   font-weight: normal;
 }
 div.jopp-toc-item-text,
 a {
   text-decoration: none;
-  color: var(--fontColor);
+  color: var(--color);
+}
+div.jopp-toc-item-text.disable-toc-links:hover{
+  border-bottom: 1px solid currentColor;
+}
+div.jopp-toc-item-text.disable-toc-links a{
+  cursor: initial;
 }
 div.jopp-toc-item-text > a:after {
   content: "　　";
